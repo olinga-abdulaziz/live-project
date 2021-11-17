@@ -1,38 +1,93 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Zen+Kurenaido&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root{
+    --color1:rgb(35, 54, 37);
+    --color2:rgb(51, 54, 35);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.navbar{
+    width: 85%;
+    height: auto;
+    margin: auto;
+    padding: 20px;
+    justify-content: space-between;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.navbar ul li{
+    color: var(--color1);
+    display: inline-block;
 }
-
-.App-link {
-  color: #61dafb;
+.navbar li{
+    margin-left: 20px;
 }
+.logo-div{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    color: rgb(35, 54, 37);
+    font-size: 30px;
+    margin: 10px;
+}
+.brand{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+.abdul{
+    color: var(--color1);
+}
+.aziz{
+    color: var(--color2);
+}
+.content-wrapper{
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.content-box h1 h5{
+    color: var(--color1);
+}
+.content-box p{
+    color: var(--color2);
+}
+.nav-menu{
+    display: block;
+}
+.menu-toggler{
+    display: none;
+}
+.empty-mobile{
+    display:none ;
+}
+@media only screen and (max-width:650px) {
+    .navbar{
+        width: 100%;
+        margin: 0;
+    }
+    .nav-menu{
+        display: none;
+    }
+    .menu-toggler{
+        display: block;
+        font-size: 30px;
+        color: var(--color2);
+    }
+    .logo{
+        display: none;
+    }
+    .brand{
+        margin-left: 30px;
+        font-size: 25px;
+    }
+    .my-image{
+        width: 100%;
+        border-radius:40%;
+    }
+    .content-wrapper{
+        height: 100vh;
+    }
+    .empty-mobile{
+        display:block ;
+    }
+   
+    
 }
