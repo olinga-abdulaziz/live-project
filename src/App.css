@@ -1,164 +1,299 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Zen+Kurenaido&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Zen+Kurenaido&display=swap");
 
-:root{
-    --color1:rgb(35, 54, 37);
-    --color2:rgb(51, 54, 35);
+:root {
+  --color1: rgb(35, 54, 37);
+  --color2: rgb(51, 54, 35);
 }
-.navbar{
+.navbar {
+  width: 85%;
+  height: auto;
+  margin: auto;
+  padding: 20px;
+  justify-content: space-between;
+}
+.sidebar{
+  display: none;
+}
+.btn{
+    border-radius: 20px;
+}
+.message{
+    height: 20vh;
+    width: 85.5%;
+}
+.co{
     width: 85%;
-    height: auto;
+    padding: 30px;
     margin: auto;
-    padding: 20px;
-    justify-content: space-between;
 }
-.navbar ul li{
-    color: var(--color1);
-    display: inline-block;
+.navbar ul li {
+  color: var(--color1);
+  display: inline-block;
 }
-.navbar li{
-    margin-left: 20px;
+.navbar li {
+  margin-left: 20px;
 }
-.logo-div{
+.logo-div {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  color: rgb(35, 54, 37);
+  font-size: 30px;
+  margin: 10px;
+}
+.brand {
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+}
+.abdul {
+  color: var(--color1);
+}
+.aziz {
+  color: var(--color2);
+}
+.content-wrapper {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.about-title-div {
+  margin-top: 40px;
+}
+.patners-div {
+  width: 100%;
+}
+.about-card-div {
+  margin-top: 20px;
+  justify-content: space-between;
+  display: flex;
+}
+.card-about {
+  width: 20%;
+  height: 30vh;
+}
+.about-title1 {
+  color: var(--color1);
+  width: 40%;
+  font-size: 30px;
+}
+.footer-social-div{
     display: flex;
-    align-items: center;
+    padding-top: 25%;
+    justify-content: space-around;
 }
-.logo1{
-    display: none;
+.content-box h1 h5 {
+  color: var(--color1);
 }
-.logo{
-    color: rgb(35, 54, 37);
-    font-size: 30px;
-    margin: 10px;
+.content-box p {
+  color: var(--color2);
 }
-.brand{
-    font-size: 30px;
-    font-family: 'Poppins', sans-serif;
+.nav-menu {
+  display: block;
 }
-.abdul{
-    color: var(--color1);
+.menu-toggler {
+  display: none;
 }
-.aziz{
+.link {
+  color: var(--color1);
+}
+.link:hover {
+  text-decoration: none;
+  list-style: none;
+  color: green;
+  transition: width 2s ease;
+  font-style: normal;
+}
+.empty-mobile {
+  display: none;
+}
+.lgDiv {
+  align-items: center;
+  display: flex;
+}
+.grid-cup {
+  display: flex;
+  justify-content: space-between;
+}
+.p-icon {
+  float: left;
+  margin-right: 10px;
+  font-size: 80px;
+}
+.card-box {
+  margin-top: 10px;
+  padding: 30px;
+}
+.my-image {
+  border-radius: 40%;
+}
+.content-wrapper {
+  width: 85%;
+  margin: auto;
+  height: 90vh;
+}
+.footer {
+  width: 100%;
+  margin-top: 40px;
+  display: grid;
+  padding: 30px;
+  background-color: rgb(121, 205, 216);
+  grid-template-columns: 1fr 1fr;
+  height: 40vh;
+}
+.cup {
+  overflow: hidden;
+}
+.bottomDiv {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  margin: 0;
+  background-color: rgb(20, 22, 21);
+}
+.bottomDiv p{
     color: var(--color2);
+  }
+.about-content {
+  margin-top: 40px;
 }
-.content-wrapper{
-    align-items: center;
+.about-content {
+  padding-top: 30px;
+  text-align: center;
+  width: 85%;
+  margin: auto;
+  justify-content: center;
+}
+.about-addition-story{
+    margin-top: 40px;
+}
+.about-addition-story p{
+    width: 40%;
+    text-align: start;
+}
+.contact-input-div{
+    display: flex;
+}
+.email{
+    margin-left: 3px;
+}
+.contact-cup{
     display: grid;
     grid-template-columns: 1fr 1fr;
-
 }
-.content-box h1 h5{
+.my-location{
+    padding: 30px;
+    align-items: center;
+}
+.my-location h3{
     color: var(--color1);
 }
-.content-box p{
-    color: var(--color2);
+.contact-social-div{
+    display: flex;
 }
-.nav-menu{
-    display: block;
+@media only screen and (max-width: 650px) {
+  .navbar {
+    width: 100%;
+    margin: 0;
+  }
+  .sidebar{
+    width: 38vh;
+    height: 100vh;
+  
+    background-color: rgb(20, 22, 21);
+  }
+  .contact-cup{
+      display: block;
+  }
+  .email{
+      margin: 0;
+  }
+  .contact-input-div{
+      display: block;
+  }
+  .co{
+    width: 100%;
+    padding: 30px;
+    margin: auto;
 }
-.menu-toggler{
-    display: none;
+  .about-addition-story p{
+    width: 100%;
+    text-align: start;
 }
-.empty-mobile{
-    display:none ;
+  .logo-div {
+    width: 100%;
+    justify-content: space-between;
+  }
+  .message{
+    height: 20vh;
+    width: 100%;
 }
-.grid-cup{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-.p-icon{
+  .about-title1 {
+    color: var(--color1);
+    width: 80%;
+    font-size: 20px;
+  }
+  .p-icon {
     float: left;
     margin-right: 10px;
     font-size: 80px;
-}
-.card-box{
-    margin-top: 10px;
-    padding: 30px;
-    
-}
-.my-image{
-    border-radius: 40%;
-}
-.content-wrapper{
-    width: 85%;
-    margin: auto;
-    height: 90vh;
-}
-.footer{
+  }
+  .about-card-div {
+    margin-top: 20px;
+    display: block;
+  }
+  .card-about {
     width: 100%;
-    margin-top: 40px;
-    height: 40vh;
-    background-color: rgb(29, 151, 141);
-}
-.cup{
-    overflow: hidden;
-}
-.bottomDiv{
-    width: 100%;
-    height: 40px;
-    margin: 0;
-    background-color: rgb(20, 22, 21);
-}
+    margin-top: 20px;
+    height: 30vh;
+  }
 
-@media only screen and (max-width:650px) {
-    .navbar{
-        width: 100%;
-        margin: 0;
-    }
-    .p-icon{
-        float: left;
-        margin-right: 10px;
-        font-size: 80px;
-    }
-    .nav-menu{
-        display: none;
-    }
-    .menu-toggler{
-        display: block;
-        font-size: 25px;
-        color: var(--color2);
-    }
-    .empty-mobile{
-        display:block ;
-    }
-    .empty-mobile i{
-        text-align: center;
-        margin: 20px;
-        font-size: 20px;
-        color: var(--color1);
-        width: 100%;
-    }
-    .ico-div{
-        padding: 20px;
-    }
-    .logo{
-        display: none;
-    }
-    .logo1{
-        display: block;
-        font-size: 20px;
-    }
-    .card-box{
-        margin-top: 10px;
-        padding: 20px;
-        display: block;
-    }
-    .brand{
-        margin-left: 10px;
-        margin-top: 3px;
-        font-size: 25px;
-        margin-left: 10px;
-    }
-    .my-image{
-        width: 100%;
-        border-radius:40%;
-    }
-    .content-wrapper{
-        height: 90vh;
-        margin-top: -70px;
-    }
-    .grid-cup{
-        display: block;
-    }
-   
-    
+  .nav-menu {
+    display: none;
+  }
+  .menu-toggler {
+    display: block;
+    font-size: 25px;
+    color: var(--color2);
+  }
+  .empty-mobile {
+    display: block;
+  }
+  .empty-mobile i {
+    text-align: center;
+    margin: 20px;
+    font-size: 20px;
+    color: var(--color1);
+    width: 100%;
+  }
+  .ico-div {
+    padding: 20px;
+  }
+  .logo {
+    display: block;
+    font-size: 20px;
+    margin-right: -6px;
+  }
+  .card-box {
+    margin-top: 10px;
+    padding: 20px;
+    display: block;
+  }
+  .brand {
+    margin-left: 10px;
+    margin-top: 3px;
+    font-size: 25px;
+    margin-left: 10px;
+  }
+  .my-image {
+    width: 100%;
+    border-radius: 40%;
+  }
+  .content-wrapper {
+    height: 90vh;
+    margin-top: -70px;
+  }
+  .grid-cup {
+    display: block;
+  }
 }
