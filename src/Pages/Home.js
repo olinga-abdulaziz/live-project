@@ -1,6 +1,7 @@
 import me from '../Images/image3.png'
 import Aos from 'aos'
 import "aos/dist/aos.css";
+import Portfolio from '../Components/Portfolio'
 import { useEffect } from 'react';
 function Home() {
     useEffect(()=>{
@@ -21,8 +22,16 @@ function Home() {
         </div>
         <div className="empty-mobile">
             <i class="fa fa-arrow-circle-down" aria-hidden="true"></i>
+        </div> 
+      <section>
+      <div className="portfolio" id="portfolio">
+        <div className="container">
+         <Portfolio />
         </div>
+      </div>
+      </section>
     </div> 
+    
     );
 }
 
