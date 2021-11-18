@@ -89,6 +89,9 @@
     height: 40vh;
     background-color: rgb(29, 151, 141);
 }
+.cup{
+    overflow: hidden;
+}
 .bottomDiv{
     width: 100%;
     height: 40px;
@@ -113,6 +116,16 @@
         display: block;
         font-size: 25px;
         color: var(--color2);
+    }
+    .empty-mobile{
+        display:block ;
+    }
+    .empty-mobile i{
+        text-align: center;
+        margin: 20px;
+        font-size: 20px;
+        color: var(--color1);
+        width: 100%;
     }
     .ico-div{
         padding: 20px;
@@ -141,6 +154,7 @@
     }
     .content-wrapper{
         height: 90vh;
+        margin-top: -70px;
     }
     .grid-cup{
         display: block;

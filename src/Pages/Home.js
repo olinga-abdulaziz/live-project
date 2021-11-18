@@ -13,11 +13,14 @@ function Home() {
             <h5>Hi am</h5>
             <h1>Oling`a</h1>
             <p>Am a full-stack web developer, i build successfull web-app and native mobile applications with cool features and much more</p>
-            <div><button className="btn btn-success">Get started</button></div>
+            <div><a href="#portfolio" ><button className="btn btn-success">Get started</button></a></div>
             </div>
             <div className="content-box">
                 <img className="my-image" src={me} alt="abdulaziz olinga said" data-aos="fade-left" />
             </div>
+        </div>
+        <div className="empty-mobile">
+            <i class="fa fa-arrow-circle-down" aria-hidden="true"></i>
         </div>
     </div> 
     );
