@@ -28,7 +28,7 @@ function App() {
                     <li>Home</li>
                     <li>Contact</li>
                     <li>About</li>
-                    <li><button className="btn btn-success">Portfolio</button></li>
+                    <li><a href="#portfolio" ><button className="btn btn-success">Portfolio</button></a></li>
                   </ul>
                 </div>
               </div>
@@ -40,7 +40,7 @@ function App() {
       </section>
 
       <section>
-      <div className="portfolio">
+      <div className="portfolio" id="portfolio">
         <div className="container">
          <Portfolio />
         </div>
