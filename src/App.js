@@ -8,7 +8,6 @@ import Footer from './Components/footer';
 import { BrowserRouter as Router , Link , Route ,Routes} from 'react-router-dom';
 import Contact from './Pages/Contact';
 import About from './Pages/About';
-import { useState } from 'react';
 
 function App() {
   useEffect(()=>{
