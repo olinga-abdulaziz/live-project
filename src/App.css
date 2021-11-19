@@ -207,7 +207,7 @@
     display: block;
     height: 100vh;
     z-index: 1000;
-    background-color: rgb(121, 205, 216);
+    background-color: var(--color1);
   }
   .closeSidebar{
     width: 0;
@@ -253,7 +253,7 @@
     padding: 20px;
   }
   .links{
-    color: var(--color1);
+    color: white;
   }
 
 
