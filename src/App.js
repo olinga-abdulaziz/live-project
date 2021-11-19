@@ -15,11 +15,7 @@ function App() {
     Aos.init({duration:2000})
   },[])
 
-  const [showSidebar ,setShowSidebar]=useState(false)
-  const[sidebar1 ,setSidebar]=useState(false);
   
-
-
   const showSidebarHandler=()=>{
       const sidebar=document.querySelector(".closeSidebar");
       const wrapper=document.querySelector(".hideWrapper");
