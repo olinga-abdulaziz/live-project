@@ -3,25 +3,90 @@ import Aos from 'aos'
 import "aos/dist/aos.css";
 import { useEffect } from 'react';
 import Home from './Pages/Home';
-import Sidebar from './Components/Sidebar';
+import me from './Images/image1.png'
 import Footer from './Components/footer';
 import { BrowserRouter as Router , Link , Route ,Routes} from 'react-router-dom';
 import Contact from './Pages/Contact';
 import About from './Pages/About';
+import { useState } from 'react';
+
 function App() {
   useEffect(()=>{
     Aos.init({duration:2000})
   },[])
+
+  const [showSidebar ,setShowSidebar]=useState(false)
+  const[sidebar1 ,setSidebar]=useState(false);
+  
+
+
+  const showSidebarHandler=()=>{
+      const sidebar=document.querySelector(".closeSidebar");
+      const wrapper=document.querySelector(".hideWrapper");
+      sidebar.classList.remove("closeSidebar");
+      sidebar.classList.add("show-sidebar");
+      wrapper.classList.add("showWrapper")
+  }
+
+  
+
+  const closeSidebar =()=>{
+      const sidebar=document.querySelector(".show-sidebar");
+      const wrapper=document.querySelector(".hideWrapper");
+      wrapper.classList.remove("showWrapper")
+      wrapper.classList.add("hideWrapper")
+      sidebar.classList.add("closeSidebar");
+  }
   return (
     <div className="App">
-      
      <Router>
-     <Sidebar />
+       <section>
+          <div className="closeSidebar">
+          <div className="hideWrapper">
+        <div className="side-logo-div">
+            <div>
+                <i class="fas fa-tablets"></i>
+            </div>
+            <div>
+                <i class="fa fa-times close" aria-hidden="true" onClick={closeSidebar}></i>
+            </div>
+        </div>
+        <div className="side-content">
+            <div className="side-img-div">
+                <img src={me} alt="" className="me" />
+            </div>
+            <div className="side-links-div">
+                <ul>
+                    <li>
+                        <Link onClick={closeSidebar} className="links" to="/" ><i class="fa fa-home" aria-hidden="true"></i>  Home</Link> 
+                    </li>
+                    <li>
+                        <Link onClick={closeSidebar} className="links" to="/about"><i class="fas fa-blog"></i> Blogs</Link>
+                         
+                    </li>
+                    <li>
+                         <Link onClick={closeSidebar} className="links" to="/about"><i class="fas fa-info-circle"></i> About</Link>
+                        
+                    </li>
+                    <li>
+                         <Link onClick={closeSidebar} className="links" to="/contact"><i class="far fa-address-book"></i> Contact</Link>
+                    
+                    </li>
+                </ul>
+            </div>
+        </div>
+        </div>
+    </div>
+       </section>
+
+
+
+
       <section>
           <div className="navbar-container">
               <div className="navbar" data-aos="fade-up">
                 <div className="logo-div">
-                  <div> <i class="fas fa-stream menu-toggler"></i></div>
+                  <div> <i class="fas fa-stream menu-toggler" onClick={showSidebarHandler}></i></div>
                   <div className="lgDiv">
                      
                       <i class="fas fa-tablets logo"></i>

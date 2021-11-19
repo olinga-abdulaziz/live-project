@@ -11,9 +11,7 @@
   padding: 20px;
   justify-content: space-between;
 }
-.sidebar{
-  display: none;
-}
+
 .btn{
     border-radius: 20px;
 }
@@ -21,6 +19,7 @@
     height: 20vh;
     width: 85.5%;
 }
+
 .co{
     width: 85%;
     padding: 30px;
@@ -191,17 +190,79 @@
 .contact-social-div{
     display: flex;
 }
+.closeSidebar{
+  display:none;
+}
 @media only screen and (max-width: 650px) {
   .navbar {
     width: 100%;
     margin: 0;
   }
-  .sidebar{
-    width: 38vh;
+  .show-sidebar{
+    width: 40vh;
+    position: fixed;
+    top: 0;
+    transition: width 0.5s ease;
+    left: 0;
+    display: block;
     height: 100vh;
-  
-    background-color: rgb(20, 22, 21);
+    z-index: 1000;
+    background-color: rgb(121, 205, 216);
   }
+  .closeSidebar{
+    width: 0;
+    position: absolute;
+    transition: width 0.5s ease;
+  }
+  .hideWrapper{
+    display: none;
+  }
+  .showWrapper{
+    display: block;
+  }
+  .side-img-div{
+    width: 100%;
+  }
+  .me{
+    width: 150px;
+    height: 150px;
+    margin-top: -30px;
+    margin-left: 50px;
+    border-radius: 50%;
+  }
+  .side-logo-div{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .side-logo-div i{
+    cursor: pointer;
+    font-size: 25px;
+  }
+  .side-links-div{
+    width: 40vh;
+    padding: 20px;
+  }
+  .side-links-div ul li{
+    list-style: none;
+  }
+
+  .side-links-div  li{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+  }
+  .links{
+    color: var(--color1);
+  }
+
+
+
+
+  .side-links-div  li i{
+    margin-right: 10px;
+  }
+  
   .contact-cup{
       display: block;
   }
@@ -296,4 +357,5 @@
   .grid-cup {
     display: block;
   }
+
 }
