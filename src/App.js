@@ -48,7 +48,7 @@ function App() {
         </div>
         <div className="side-content">
             <div className="side-img-div">
-                <img src={me} alt="" className="me" />
+                <img src={me} alt="abdulaziz olinga said" className="me" />
             </div>
             <div className="side-links-div">
                 <ul>
@@ -79,6 +79,7 @@ function App() {
 
       <section>
           <div className="navbar-container">
+            <h1 style={{display:"none"}}>abdulaziz olinga</h1>
               <div className="navbar" data-aos="fade-up">
                 <div className="logo-div">
                   <div> <i class="fas fa-stream menu-toggler" onClick={showSidebarHandler}></i></div>
@@ -86,6 +87,7 @@ function App() {
                      
                       <i class="fas fa-tablets logo"></i>
                       <Link to="/" className="link">
+                      <h1 style={{display:"none"}}>abdulaziz olinga</h1>
                       <h1 className="brand"><strong className="abdul">abdul</strong> <strong className="aziz">aziz</strong></h1>
                       </Link>
                   </div>
@@ -93,10 +95,11 @@ function App() {
                 
                 <div className="nav-menu">
                   <ul>
+                  <h1 style={{display:"none"}}>olinga</h1>
                     <li><Link to="/" className="link">Home</Link></li>
                     <li><Link to="/about" className="link">About</Link></li>
                     <li><Link to="/contact" className="link">Contact</Link></li>
-                   
+                    <h1 style={{display:"none"}}>abdulaziz olinga</h1>
                     <li><a href="#portfolio" className="link"><button className="btn btn-success">Portfolio</button></a></li>
                   </ul>
                 </div>

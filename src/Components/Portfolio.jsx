@@ -40,7 +40,8 @@ function Python() {
     <div className="card card-box">
         <div>
             <i className="fab fa-python p-icon"></i>
-            <strong>Python</strong> ipsum dolor sit amet consectetur adipisicing.
+            <strong><a href="https://www.python.org">Python</a></strong> being my primary language i use it for backed development.
+            i also add cool features to my app using python AI and machine learning.
         </div>
     </div>
      );
@@ -52,7 +53,7 @@ function Java() {
         <div className="card card-box">
         <div>
             <i className="fab fa-java p-icon"></i>
-            <strong>Java</strong> ipsum dolor sit amet consectetur adipisicing.
+            <strong><a href="https://www.java.com">Java</a></strong> i use it mostly for android apps development and server-side applications
         </div>
     </div> 
          );
@@ -65,7 +66,7 @@ function JavaScript() {
         <div className="card card-box">
         <div>
         <i className="fab fa-js p-icon"></i>
-        <strong>JavaScript</strong> ipsum dolor sit amet consectetur adipisicing.
+        <strong><a href="https://www.javascript.com">JavaScript</a></strong> as it being my secondary language i use it for front-end and native mobile applications i spend most of my time coding with js
         </div>
     </div>
     );
@@ -78,7 +79,7 @@ function ReactFrame() {
         <div className="ico-div">
         <box-icon className="p-icon1" name='react' type='logo' ></box-icon>
         </div>
-        <strong>React</strong> ipsum dolor sit amet consectetur adipisicing.
+        <strong><a href="https://reactjs.org">React</a></strong> ipsum dolor sit amet consectetur adipisicing.
         </div>
     </div>
      );
@@ -91,7 +92,7 @@ function Vue() {
         <div className="ico-div">
         <box-icon className="p-icon1" name='vuejs' type='logo' ></box-icon>
         </div>
-        <strong>Vue</strong> ipsum dolor sit amet consectetur adipisicing.
+        <strong><a href="https://vuejs.org">Vuejs</a></strong> ipsum dolor sit amet consectetur adipisicing.
         </div>
     </div>
      );
@@ -105,7 +106,7 @@ function Django() {
         <div className="ico-div">
         <box-icon className="p-icon1" type='logo' name='django'></box-icon>
         </div>
-            <strong>Django</strong> ipsum dolor sit amet consectetur adipisicing.
+            <strong><a href="https://www.djangoproject.com">Django</a></strong> ipsum dolor sit amet consectetur adipisicing.
         </div>
     </div>
     );
@@ -120,7 +121,7 @@ function Spring() {
         <div className="ico-div">
         <box-icon className="p-icon1" name='spring-boot' type='logo' ></box-icon>
         </div>
-        <strong>Spring</strong> ipsum dolor sit amet consectetur adipisicing.
+        <strong><a href="https://spring.io/">Spring</a></strong> ipsum dolor sit amet consectetur adipisicing.
         </div>
     </div>
      );
