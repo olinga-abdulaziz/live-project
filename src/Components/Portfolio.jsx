@@ -40,7 +40,7 @@ function Python() {
     <div className="card card-box">
         <div>
             <i className="fab fa-python p-icon"></i>
-            <strong><a href="https://www.python.org">Python</a></strong> <small>being my primary language i use it for backed development.
+            <strong><a href="https://www.python.org" title="Python abdulaziz olinga">Python</a></strong> <small>being my primary language i use it for backed development.
             i also add cool features to my app using python AI and machine learning.</small>
         </div>
     </div>
@@ -53,7 +53,7 @@ function Java() {
         <div className="card card-box">
         <div>
             <i className="fab fa-java p-icon"></i>
-            <strong><a href="https://www.java.com">Java</a></strong><small>i use it mostly for android apps development and server-side applications ,this was my first language</small>
+            <strong><a href="https://www.java.com" title="java abdulaziz olinga">Java</a></strong><small>i use it mostly for android apps development and server-side applications ,this was my first language</small>
         </div>
     </div> 
          );
@@ -66,7 +66,7 @@ function JavaScript() {
         <div className="card card-box">
         <div>
         <i className="fab fa-js p-icon"></i>
-        <strong><a href="https://www.javascript.com">JavaScript</a></strong> <small>as it being my secondary language i use it for front-end and native mobile applications i spend most of my time coding with js</small>
+        <strong><a href="https://www.javascript.com" title="javascript abdulaziz olinga">JavaScript</a></strong> <small>as it being my secondary language i use it for front-end and native mobile applications i spend most of my time coding with js</small>
         </div>
     </div>
     );
@@ -79,7 +79,7 @@ function ReactFrame() {
         <div className="ico-div">
         <box-icon className="p-icon1" name='react' type='logo' ></box-icon>
         </div>
-        <strong><a href="https://reactjs.org">React</a></strong><small> my best front-end framework for signle page  applications</small>
+        <strong><a href="https://reactjs.org" title="React abdulaziz olinga" >React</a></strong><small> my best front-end framework for signle page  applications</small>
         </div>
     </div>
      );
@@ -92,7 +92,7 @@ function Vue() {
         <div className="ico-div">
         <box-icon className="p-icon1" name='vuejs' type='logo' ></box-icon>
         </div>
-        <strong><a href="https://vuejs.org">Vuejs</a></strong> My favourite front-end framework for signle page  applications
+        <strong><a href="https://vuejs.org" title="Vuejs abdulaziz olinga" >Vuejs</a></strong> My favourite front-end framework for signle page  applications
         </div>
     </div>
      );
@@ -106,7 +106,7 @@ function Django() {
         <div className="ico-div">
         <box-icon className="p-icon1" type='logo' name='django'></box-icon>
         </div>
-            <strong><a href="https://www.djangoproject.com">Django</a></strong> 80% of my backend (APIs) i do with python .
+            <strong><a href="https://www.djangoproject.com" title="Django abdulaziz">Django</a></strong> 80% of my backend (APIs) i do with python .
         </div>
     </div>
     );
@@ -121,7 +121,7 @@ function Spring() {
         <div className="ico-div">
         <box-icon className="p-icon1" name='spring-boot' type='logo' ></box-icon>
         </div>
-        <strong><a href="https://spring.io/">Spring</a></strong> this is my secondary backend framework for my java technologies.
+        <strong><a href="https://spring.io/" title="Spring abdulaziz">Spring</a></strong> this is my secondary backend framework for my java technologies.
         </div>
     </div>
      );
