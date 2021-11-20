@@ -8,6 +8,8 @@ import Footer from './Components/footer';
 import { BrowserRouter as Router , Link , Route ,Routes} from 'react-router-dom';
 import Contact from './Pages/Contact';
 import About from './Pages/About';
+import Blogs from './Pages/Blogs';
+import Success from './Pages/Success';
 
 function App() {
   useEffect(()=>{
@@ -46,6 +48,7 @@ function App() {
                 <i class="fa fa-times close" aria-hidden="true" onClick={closeSidebar}></i>
             </div>
         </div>
+        <hr />
         <div className="side-content">
             <div className="side-img-div">
                 <img src={me} alt="abdulaziz olinga said" className="me" />
@@ -55,8 +58,9 @@ function App() {
                     <li>
                         <Link onClick={closeSidebar} className="links" to="/" ><i class="fa fa-home" aria-hidden="true"></i>  Home</Link> 
                     </li>
+                    
                     <li>
-                        <Link onClick={closeSidebar} className="links" to="/about"><i class="fas fa-blog"></i> Blogs</Link>
+                        <Link onClick={closeSidebar} className="links" to="/blogs"><i class="fas fa-blog"></i> Blogs</Link>
                          
                     </li>
                     <li>
@@ -69,6 +73,22 @@ function App() {
                     </li>
                 </ul>
             </div>
+            <div>
+              <center>
+            <div className="social-sidedivs">
+                <a href="https://web.facebook.com/abdulziz.o.saidi/"><i class="fab fa-facebook-square"></i></a>
+                <a href="https://twitter.com/OlingaAbdul"><i class="fab fa-twitter-square"></i></a>
+                <a href="https://www.instagram.com/abdulziz_syd/"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.pinterest.com/abdulazizolinga/_saved/"><i class="fab fa-pinterest-square"></i></a>
+                </div></center>
+            </div>
+            <div>
+              <hr />
+              <center>
+              <font><small>abdulazizolinga17@gmail.com</small></font>
+              </center>
+            </div>
+
         </div>
         </div>
     </div>
@@ -97,6 +117,7 @@ function App() {
                   <ul>
                   <h1 style={{display:"none"}}>olinga</h1>
                     <li><Link to="/" className="link">Home</Link></li>
+                    <li><Link to="/blogs" className="link">Blogs</Link></li>
                     <li><Link to="/about" className="link">About</Link></li>
                     <li><Link to="/contact" className="link">Contact</Link></li>
                     <h1 style={{display:"none"}}>abdulaziz olinga</h1>
@@ -110,8 +131,10 @@ function App() {
       <section>
       <Routes>
         <Route path="/" exact element={<Home />} />
+        <Route path="/blogs" exact element={<Blogs />} />
         <Route path="/contact" exact element={<Contact />} />
         <Route path="/about" exact element={<About />} />
+        <Route path="/success" exact element={<Success />} />
       </Routes>
       </section>
       <section>

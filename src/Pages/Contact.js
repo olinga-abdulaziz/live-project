@@ -1,6 +1,7 @@
 import Aos from 'aos'
 import "aos/dist/aos.css";
 import { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 function Contact() {
     useEffect(()=>{
         Aos.init({duration:2000})
@@ -37,25 +38,29 @@ function Contact() {
                                             </div>
                                             <br /><br />  
                                     <div>
-                                        <button type="submit" className="btn btn-success">Submit</button>
+                                       <Link to="/success" ><button  className="btn btn-success">Submit</button></Link>
                                     </div>
                                 </form>
                             </div>
               </div>
 
               <div className="my-location">
-                    <h3>location</h3> <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    <h3>Address</h3>
                     <hr />
                     <p>
                         <strong>Country</strong> : Kenya <br />
                         <strong>County</strong> :  Nairobi <br />
                         <strong>Sub-location</strong> : Embakasi east tasia <br />
                         <strong>Estate</strong> :  Nyayo estate <br />
+                        <strong>Email</strong> :  abdulazizolinga17@gmail.com <br />
+                        <strong>Phone</strong> :  +254769210601 <br />
                     </p>
                     <div className="contact-social-div">
-                    <i class="fab fa-twitter-square"></i>
-                    <i class="fab fa-instagram-square"></i>
-                    <i class="fab fa-pinterest-square"></i>
+                    <a href="https://web.facebook.com/abdulziz.o.saidi/"><i class="fab fa-facebook-square"></i></a>
+                    <a href="https://twitter.com/OlingaAbdul"><i class="fab fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/abdulziz_syd/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.instagram.com/abdulziz_syd/"><i class="fab fa-github-square"></i></a>
+                    <a href="https://www.pinterest.com/abdulazizolinga/_saved/"><i class="fab fa-pinterest-square"></i></a>
                     </div>
                     <h1 style={{display:"none"}}>abdulaziz olinga</h1>
               </div>

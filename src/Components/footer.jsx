@@ -3,25 +3,19 @@ function Footer() {
     <div className="footer-wrapper">
         <div className="footer">
 
-        <div>
-            <p>
-                 commodi veniam, excepturi dolorum in corporis aut iure voluptas atque voluptatem odit impedit enim quasi recusandae. Expedita, laboriosam.
-            </p>
-        </div>
-     
-        <div className="footer-social-div">
-        <i class="fab fa-facebook-square"></i>
-            <i class="fab fa-twitter-square"></i>
-            <i class="fab fa-instagram-square"></i>
-            <i class="fab fa-pinterest-square"></i>
-            <i class="fab fa-whatsapp-square"></i>
-            <i class="fa fa-envelope" aria-hidden="true"></i>
-        </div>
-       
+            <center>
+                <font><small>developed by abdulazizolinga17@gmail.com</small></font>
+                <br />
+                <br />
+                <div className="social-divs">
+                <a href="https://web.facebook.com/abdulziz.o.saidi/"><i class="fab fa-facebook-square"></i></a>
+                <a href="https://twitter.com/OlingaAbdul"><i class="fab fa-twitter-square"></i></a>
+                <a href="https://www.instagram.com/abdulziz_syd/"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.pinterest.com/abdulazizolinga/_saved/"><i class="fab fa-pinterest-square"></i></a>
+                </div></center>
         </div>
         <div className="bottomDiv">
-
-            <center> <p><i class="fa fa-copyright" aria-hidden="true"></i> copyright @  2021</p> </center>
+            <center> <p> copyright <i class="fa fa-copyright" aria-hidden="true"></i> 2021</p> </center>
          </div>
     </div> 
     );
