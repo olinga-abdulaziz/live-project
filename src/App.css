@@ -236,6 +236,20 @@
   .hideWrapper{
     display: none;
   }
+  .social-divs{
+    width: 50%;
+    padding-left: 10px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+  
+  }
+  .social-divs i{
+    margin-top: -20px;
+    margin-left: 60px;
+  
+  }
   .showWrapper{
     display: block;
   }

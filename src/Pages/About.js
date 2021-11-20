@@ -35,7 +35,7 @@ function About() {
 
                  <div className="card card-about" data-aos="fade-right">
                  <div className="card-header">
-                        <h5>Virsion CNTR <i class="fas fa-code-branch    "></i> </h5>
+                        <h5>Virsion CNTR <i class="fas fa-code-branch "></i> </h5>
                     </div>
                     <div className="card-body">
                          <p>Github</p>
