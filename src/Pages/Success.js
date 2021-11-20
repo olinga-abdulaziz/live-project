@@ -1,7 +1,7 @@
 import { Helmet } from 'react-helmet';
 function Success() {
     return ( 
-    <div style={{height:"50vh"}}>
+    <div style={{height:"80vh"}}>
                            <Helmet>
       <title>Success</title>
       <meta name="description" content="About Abdualziz olinga`a said . I am a full-stack web developer with muximum experience, ibuild successfull web applications ." />

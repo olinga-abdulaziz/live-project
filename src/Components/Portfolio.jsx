@@ -106,7 +106,7 @@ function Django() {
         <div className="ico-div">
         <box-icon className="p-icon1" type='logo' name='django'></box-icon>
         </div>
-            <strong><a href="https://www.djangoproject.com" title="Django abdulaziz">Django</a></strong><small> 80% of my backend (APIs) i do with python .</small>
+            <strong><a href="https://www.djangoproject.com" title="Django abdulaziz">Django</a></strong><small> 80% of  backend (APIs) i do with python. this awesome</small>
         </div>
     </div>
     );

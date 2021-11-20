@@ -90,9 +90,9 @@ function About() {
                    i had no idea what process goes on so when my programme execute at that time..
                 </p>
                 <p data-aos="fade-up">
-                    Whe ni was in form two ,our school hosted a science concress programme and some students in our school paticipate . two of my friends 
+                    When i was in form two ,our school hosted a science concress programme . two of my friends 
                     had a computer project of wich they were to develop automatic computerised door . i was suprised with how that was going to be possible until they told me that they are going 
-                    to have computer programme that will make things easy .. and the reaaly innspire me on today world technology .. 
+                    to have computer programme that will make things easy .. and tht reaaly innspire me on today world technology .. 
                 </p>
                 <p>After i was done with high school i join <a href="https://www.emobilis.ac.ke" >eMobilis mobile techonlogy institute</a> where i learn the basic of programming and much more</p>
             </div>
