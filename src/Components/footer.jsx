@@ -12,7 +12,8 @@ function Footer() {
                 <a href="https://twitter.com/OlingaAbdul"><i class="fab fa-twitter-square"></i></a>
                 <a href="https://www.instagram.com/abdulziz_syd/"><i class="fab fa-instagram"></i></a>
                 <a href="https://www.pinterest.com/abdulazizolinga/_saved/"><i class="fab fa-pinterest-square"></i></a>
-                </div></center>
+                </div>
+            </center>
         </div>
         <div className="bottomDiv">
             <center> <p> copyright <i class="fa fa-copyright" aria-hidden="true"></i> 2021</p> </center>
