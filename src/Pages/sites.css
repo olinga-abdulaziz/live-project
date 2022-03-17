@@ -1,0 +1,54 @@
+.containerBox {
+  width: 80%;
+  height: 30vh;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  display: flex;
+  margin-bottom: 20px;
+}
+.imgdiv1 {
+  width: 60vh;
+  height: 100%;
+  border: 1px solid white;
+}
+.imgdiv2 {
+  width: auto;
+  height: 100%;
+  align-items: center;
+  padding-top: 30px;
+  margin-left: 20px;
+}
+.btn-success {
+  width: 20vh;
+}
+.title {
+  color: gray;
+}
+
+@media only screen and (max-width: 650px) {
+  .containerBox {
+    display: block;
+    width: auto;
+    height: auto;
+  }
+  .imgdiv1 {
+    width: 100%;
+    height: 100%;
+    border: 1px solid white;
+  }
+  .imgdiv2 {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    padding-top: 4px;
+    margin-left: 20px;
+    padding-bottom: 20px;
+  }
+  .title {
+    text-align: center;
+    margin-right: 40px;
+    margin-left: -10px;
+  }
+}

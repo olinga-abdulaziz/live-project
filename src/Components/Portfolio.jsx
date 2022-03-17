@@ -26,6 +26,12 @@ function Portfolio() {
                 <div className="card-box-co" data-aos="fade-left"><Django /></div>
                 <div className="card-box-co" data-aos="fade-left"><Spring /></div>
             </div>
+            <br />
+            <br />
+            <div className="grid-cup" data-aos="fade-up">
+            <a href="https://www.greengeeks.com/track/olingaabdulaziz/cp-default" target="_top"><img border="0" src="https://ads.greengeeks.com/00040053.gif" /></a>
+            <a href="https://www.greengeeks.com/track/olingaabdulaziz/cp-default" target="_top"><img border="0" src="https://ads.greengeeks.com/00030040.gif" /></a>
+            </div>
 
         </div>
     </div>
@@ -121,7 +127,7 @@ function Spring() {
         <div className="ico-div">
         <box-icon className="p-icon1" name='spring-boot' type='logo' ></box-icon>
         </div>
-        <strong><a href="https://spring.io/" title="Spring abdulaziz">Spring</a></strong><small> this is my secondary backend framework for my java technologies.</small>
+        <strong><a href="https://spring.io/" title="Spring abdulaziz">Nodejs</a></strong><small> this is my secondary backend framework for my java technologies.</small>
         </div>
     </div>
      );

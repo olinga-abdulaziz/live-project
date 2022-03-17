@@ -36,7 +36,7 @@ function App() {
       sidebar.classList.add("closeSidebar");
   }
   return (
-    <div className="App">
+    <div className="App" style={{height:'auto'}}>
       <Helmet>
       <title>Abdulaziz olinga | Full-stack web developer</title>
       <meta name="description" content="Abdualziz olinga`a said . I am a full-stack web developer with muximum experience, ibuild successfull web applications ." />
@@ -79,7 +79,7 @@ function App() {
                     </li>
                     
                     <li>
-                        <Link onClick={closeSidebar} className="links" to="/blogs"><i class="fas fa-blog"></i> Blogs</Link>
+                        <Link onClick={closeSidebar} className="links" to="/Mysites"><i class="fas fa-blog"></i> My Sites</Link>
                          
                     </li>
                     <li>
@@ -136,7 +136,7 @@ function App() {
                   <ul>
                   <h1 style={{display:"none"}}>olinga</h1>
                     <li><Link to="/" className="link">Home</Link></li>
-                    <li><Link to="/blogs" className="link">Blogs</Link></li>
+                    <li><Link to="/Mysites" className="link">My Sites</Link></li>
                     <li><Link to="/about" className="link">About</Link></li>
                     <li><Link to="/contact" className="link">Contact</Link></li>
                     <h1 style={{display:"none"}}>abdulaziz olinga</h1>
@@ -150,7 +150,7 @@ function App() {
       <section>
       <Routes>
         <Route path="/" exact element={<Home />} />
-        <Route path="/blogs" exact element={<Blogs />} />
+        <Route path="/Mysites" exact element={<Blogs />} />
         <Route path="/contact" exact element={<Contact />} />
         <Route path="/about" exact element={<About />} />
         <Route path="/success" exact element={<Success />} />
