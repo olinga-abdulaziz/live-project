@@ -28,19 +28,19 @@ function Blogs() {
                     1. my own portforlio - www.abdulazizolinga.netlify.app
                 </li>
                 <li>
-                    1. Football website - www.fkftesonorth.netlify.app
+                    2. Football website - www.fkftesonorth.netlify.app
                 </li>
                 <li>
-                    1. Love Calculator - www.love100.netlify.app
+                    3. Love Calculator - www.love100.netlify.app
                 </li>
                 <li>
-                    1. A school website - www.trainstar.netlify.app
+                    4. A school website - www.trainstar.netlify.app
                 </li>
                 <li>
-                    1. A photography Website - www.kkphoto.netlify.app
+                    5. A photography Website - www.kkphoto.netlify.app
                 </li>
                 <li>
-                    1. E-comerce website - www.olingsoft.netlify.app
+                    6. E-comerce website - www.olingsoft.netlify.app
                 </li>
             </ul>
         </div>

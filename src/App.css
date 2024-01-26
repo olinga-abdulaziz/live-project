@@ -212,6 +212,14 @@
 .closeSidebar{
   display:none;
 }
+.myprojdiv{
+  margin-left: auto;
+  margin-right: auto;
+  background-color: aliceblue;
+  border-radius: 10px;
+  padding: 10px;
+  width: auto;
+}
 @media only screen and (max-width: 650px) {
   .navbar {
     width: 100%;
