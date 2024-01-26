@@ -218,7 +218,7 @@
   background-color: aliceblue;
   border-radius: 10px;
   padding: 10px;
-  width: auto;
+  width: 60%;
 }
 @media only screen and (max-width: 650px) {
   .navbar {
