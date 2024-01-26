@@ -216,6 +216,9 @@
   list-style: none;
   margin-bottom: 10px;
 }
+.myprojdiv ul li label{
+  color: gray;
+}
 .myprojdiv{
   margin-left: auto;
   margin-right: auto;
