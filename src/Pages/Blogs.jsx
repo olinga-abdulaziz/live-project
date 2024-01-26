@@ -31,16 +31,16 @@ function Blogs() {
                     <label htmlFor="">2. Football website -</label>  <a href="https://fkftesonorth.netlify.app/">www.fkftesonorth.netlify.app</a>
                 </li>
                 <li>
-                    <label htmlFor="">3. Love Calculator -</label>  <a href="https://www.love100.netlify.app">www.love100.netlify.app</a>
+                    <label htmlFor="">3. Love Calculator -</label>  <a href="https://love100.netlify.app/">www.love100.netlify.app</a>
                 </li>
                 <li>
-                    <label htmlFor="">4. A school website -</label>  <a href="https://www.trainstar.netlify.app">www.trainstar.netlify.app</a>
+                    <label htmlFor="">4. A school website -</label>  <a href="https://trainstar.netlify.app/">www.trainstar.netlify.app</a>
                 </li>
                 <li>
-                    <label htmlFor="">5. A photography Website -</label>  <a href="https://www.kkphoto.netlify.app">www.kkphoto.netlify.app</a>
+                    <label htmlFor="">5. A photography Website -</label>  <a href="https://kkphoto.netlify.app/">www.kkphoto.netlify.app</a>
                 </li>
                 <li>
-                    <label htmlFor="">6. E-comerce website -</label>  <a href="https://www.olingsoft.netlify.app">www.olingsoft.netlify.app</a>
+                    <label htmlFor="">6. E-comerce website -</label>  <a href="https://olingsoft.netlify.app/">www.olingsoft.netlify.app</a>
                 </li>
             </ul>
         </div>
