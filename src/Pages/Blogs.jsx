@@ -21,6 +21,29 @@ function Blogs() {
     </Helmet>
         <center><strong>My projects</strong></center>
         <center><small>this are the list of projects i have done so far</small></center>
+        <br />
+        <div className='myprojdiv'>
+            <ul>
+                <li>
+                    1. my own portforlio - www.abdulazizolinga.netlify.app
+                </li>
+                <li>
+                    1. Football website - www.fkftesonorth.netlify.app
+                </li>
+                <li>
+                    1. Love Calculator - www.love100.netlify.app
+                </li>
+                <li>
+                    1. A school website - www.trainstar.netlify.app
+                </li>
+                <li>
+                    1. A photography Website - www.kkphoto.netlify.app
+                </li>
+                <li>
+                    1. E-comerce website - www.olingsoft.netlify.app
+                </li>
+            </ul>
+        </div>
     </div> );
 }
 

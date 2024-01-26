@@ -79,7 +79,7 @@ function App() {
                     </li>
                     
                     <li>
-                        <Link onClick={closeSidebar} className="links" to="/blogs"><i class="fas fa-blog"></i> Blogs</Link>
+                        <Link onClick={closeSidebar} className="links" to="/blogs"><i class="fas fa-blog"></i> My Projects</Link>
                          
                     </li>
                     <li>
