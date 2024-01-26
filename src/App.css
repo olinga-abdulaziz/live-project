@@ -212,6 +212,10 @@
 .closeSidebar{
   display:none;
 }
+.myprojdiv ul li{
+  list-style: none;
+  margin-bottom: 10px;
+}
 .myprojdiv{
   margin-left: auto;
   margin-right: auto;

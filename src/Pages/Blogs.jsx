@@ -25,22 +25,22 @@ function Blogs() {
         <div className='myprojdiv'>
             <ul>
                 <li>
-                    1. my own portforlio - www.abdulazizolinga.netlify.app
+                    1. my own portforlio - <a href="www.abdulazizolinga.netlify.app">www.abdulazizolinga.netlify.app</a>
                 </li>
                 <li>
-                    2. Football website - www.fkftesonorth.netlify.app
+                    2. Football website - <a href="www.fkftesonorth.netlify.app">www.fkftesonorth.netlify.app</a>
                 </li>
                 <li>
-                    3. Love Calculator - www.love100.netlify.app
+                    3. Love Calculator - <a href="www.love100.netlify.app">www.love100.netlify.app</a>
                 </li>
                 <li>
-                    4. A school website - www.trainstar.netlify.app
+                    4. A school website - <a href="www.trainstar.netlify.app">www.trainstar.netlify.app</a>
                 </li>
                 <li>
-                    5. A photography Website - www.kkphoto.netlify.app
+                    5. A photography Website - <a href="www.kkphoto.netlify.app">www.kkphoto.netlify.app</a>
                 </li>
                 <li>
-                    6. E-comerce website - www.olingsoft.netlify.app
+                    6. E-comerce website - <a href="www.olingsoft.netlify.app">www.olingsoft.netlify.app</a>
                 </li>
             </ul>
         </div>
