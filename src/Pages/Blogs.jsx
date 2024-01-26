@@ -19,8 +19,8 @@ function Blogs() {
       <meta name="twitter:image" content="https://media-exp1.licdn.com/dms/image/C4D22AQFKQBvMYCQC9w/feedshare-shrink_2048_1536/0/1635775551216?e=1639008000&v=beta&t=A3zRAIMxjOy19on7goNh6Aba9uZgumNbKpff0LG9I8w" />
 
     </Helmet>
-        <center><strong>comming soon !!</strong></center>
-        <center><small>this page is under development ..</small></center>
+        <center><strong>My projects</strong></center>
+        <center><small>this are the list of projects i have done so far</small></center>
     </div> );
 }
 
