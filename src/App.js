@@ -136,7 +136,7 @@ function App() {
                   <ul>
                   <h1 style={{display:"none"}}>olinga</h1>
                     <li><Link to="/" className="link">Home</Link></li>
-                    <li><Link to="/blogs" className="link">Blogs</Link></li>
+                    <li><Link to="/blogs" className="link">My Projects</Link></li>
                     <li><Link to="/about" className="link">About</Link></li>
                     <li><Link to="/contact" className="link">Contact</Link></li>
                     <h1 style={{display:"none"}}>abdulaziz olinga</h1>
