@@ -232,6 +232,9 @@
     width: 100%;
     margin: 0;
   }
+  .myprojdiv{
+    width: 80%;
+  }
   .show-sidebar{
     width: 40vh;
     position: fixed;
