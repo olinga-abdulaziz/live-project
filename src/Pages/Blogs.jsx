@@ -28,7 +28,7 @@ function Blogs() {
                     <label htmlFor="">1. My own portforlio -</label>  <a href="http://www.abdulazizolinga.netlify.app">www.abdulazizolinga.netlify.app</a>
                 </li>
                 <li>
-                    <label htmlFor="">2. Football website -</label>  <a href="http://www.fkftesonorth.netlify.app">www.fkftesonorth.netlify.app</a>
+                    <label htmlFor="">2. Football website -</label>  <a href="https://fkftesonorth.netlify.app/">www.fkftesonorth.netlify.app</a>
                 </li>
                 <li>
                     <label htmlFor="">3. Love Calculator -</label>  <a href="http://www.love100.netlify.app">www.love100.netlify.app</a>
