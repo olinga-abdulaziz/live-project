@@ -31,7 +31,7 @@ function Home() {
         <div className="content-wrapper">
             <div className="content-box" data-aos="fade-up">
             <h5>Hi am</h5>
-            <h1>Oling`a</h1>
+            <h1>Abdul</h1>
             <p>Am a full-stack web developer, i build successfull web-app and native mobile applications with cool features and much more</p>
             <div><a href="#portfolio" ><button className="btn btn-success">Get started</button></a></div>
             </div>
