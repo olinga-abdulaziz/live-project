@@ -90,9 +90,9 @@ function Vue() {
         <div className="card card-box">
         <div>
         <div className="ico-div">
-        <box-icon className="p-icon1" name='vuejs' type='logo' ></box-icon>
+        <box-icon className="p-icon1" name='nodejs' type='logo' ></box-icon>
         </div>
-        <strong><a href="https://vuejs.org" title="Vuejs abdulaziz olinga" >Vuejs</a></strong><small> my favourite front-end framework for signle page  applications</small>
+        <strong><a href="https://nodejs.org/en" title="Vuejs abdulaziz olinga" >Nodejs</a></strong><small> my favourite back-end framework for buildin restfull APIs</small>
         </div>
     </div>
      );
